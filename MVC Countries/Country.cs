@@ -25,17 +25,16 @@ namespace MVC_Countries
         }
 
 
-        public List<string> Colors { get; set; }
+        public string Colors { get; set; }
 
 
 
 
-        public Country(string Name, Continent Contient, List<string> Colors)
+        public Country(string Name, Continent Contient, string Colors)
         {
             this.Name = Name;
             this.Contient = Contient;
             this.Colors = Colors;
-
         }
 
 

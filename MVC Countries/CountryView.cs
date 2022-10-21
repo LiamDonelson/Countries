@@ -19,6 +19,7 @@ namespace MVC_Countries
 
         public void Display()
         {
+
             Console.WriteLine($"Name: {DisplayCountry.Name} Continent: {DisplayCountry.Contient} Colors : {DisplayCountry.Colors}");
         }
 
